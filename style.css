@@ -1,0 +1,330 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-header
+{
+    width: 100%;
+    object-fit: cover;
+    background: url(image/2.jpg) no-repeat center;
+    height: 650px;
+}
+.nav-bar
+{
+    width: 100%;
+    height: 130px;
+    display: flex;
+}
+.heading
+{
+    font-size: 1rem;
+    color: #fff;
+    padding-left: 37px;
+    padding-top: 51px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.icons
+{
+    padding-left: 25px;
+    padding-top: 51px;
+    color:#f60;
+    font-size: 1.7em;
+    float: right;
+}
+.ktm-image
+{
+    width: 10em;
+    height: 9.2em;
+}
+.first-bar
+{
+    margin-left: 350px;
+}
+.second-bar
+{
+    margin-left: 45px;
+}
+.section
+{
+    padding-top: 90px;
+    height: 140px;
+}
+.txt-center{
+    text-align: center;
+}
+.line-one
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: -37px;
+}
+.line-two
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 71px;
+    
+}
+.button-div
+{
+    text-align: center;
+    margin-top: -30px;
+}
+.button-one
+{
+    width: 190px;
+    min-height: 73px;
+    background-color:#f60 ;
+    border-width: 0px;
+    margin-right: 40px;
+}
+.button-one:hover
+{
+    background-color: transparent;
+    border-color: #f60;
+    border-width: 1px;
+}
+.button-two
+{
+    width: 270px;
+    min-height: 73px;
+    background-color:#f60 ;
+    border-width: 0px;
+}
+.button-two:hover
+{
+    background-color: transparent;
+    border-color: #f60;
+    border-width: 1px;
+    transition: 300ms;
+}
+.b-text
+{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.b-text:hover
+{
+    color: #f60;
+    transition: 300ms;
+}
+.first-section
+{
+   margin-top: 75px;
+}
+.first-images
+{
+    float: right;
+}
+.images
+{
+    width: 409px;
+    height: 304px;
+    margin-right: 30px;
+}
+.hash
+{
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bike-type
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.images-second
+{
+    margin-top: 50px;
+    width: 382px;
+    height: 375px;
+    margin-right: 50px;
+}
+.date
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.shows
+{
+    font-weight: bold;
+    font-size: 29px;
+    margin-top: 22px;
+}
+.shows:hover
+{
+    color: #f60;
+   transition: 500ms;
+}
+.para
+{
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 32px;
+}
+.im-div
+{
+    width: 50%;
+}
+.video-and-image
+{
+    height: 250px;
+    width: 315px;
+}
+.second-section
+{
+    padding-left: 54px;
+}
+.social-media
+{
+    width: 51%;
+    height: 426px;
+    float: right;
+    background-color: black;
+    margin-top: -508px;
+    padding-top: 78px;
+    text-align: center;
+}
+.insta
+{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.insta-logo
+{
+    font-size: 18px;
+    color:#bdbdbd;
+    margin-top: -35px;
+}
+.insta-btn
+{
+    width: 180px;
+    min-height: 70px;
+    color: #fff;
+    border-color: #fff;
+    border-width: 1px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 40px;
+}
+.insta-icon
+{
+    padding-right: 18px;
+}
+.insta-btn:hover
+{
+    border-color: #f60;
+    color: #f60;
+    transition: 400ms;
+}
+.sign-up-section
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.sign-up-label
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sign-up-btn
+{
+    width: 165px;
+    height: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 30px;
+    border-color: #f60;
+    border-width: 1.5px;
+    color: #f60;
+    background-color: #fff;
+}
+.sign-up-btn:hover
+{
+    color: #fff;
+    background-color:rgb(255, 60, 0);
+    transition: 600ms;
+    border-width: 0px;
+}
+.footer-div
+{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 13px;
+    color: #bdbdbd;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+.foot
+{
+    width: 20%;
+    height: 480px;
+    background-color: black;
+    padding-top: 70px;
+    float: left;
+}
+.details
+{
+    text-transform: uppercase;
+    margin-left: 45px;
+    color: #fff;
+    font-size: 21px;
+    padding-bottom: 46px;
+}
+.content
+{
+    color: #fff;
+    margin-left: 45px;
+    font-size: 18px;
+    margin-top: -20px;
+}
+.content:hover
+{
+    color: #f60;
+    transition: 300ms;
+}
+.connect-icon
+{
+    color: #fff;
+    padding-left: 44px;
+    font-size: 1.70em;
+}
+.connect-icons
+{
+    color: #fff;
+    padding-left: 25px;
+    font-size: 1.70em;
+}
+.copyright
+{
+    width: 100%;
+    background-color: black;
+}
+.copyright-content
+{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #bdbdbdc5;
+    margin-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 44px;
+}
